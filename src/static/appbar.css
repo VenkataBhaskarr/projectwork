@@ -1,0 +1,9 @@
+.appbar{
+    background-color: #121212;
+    font-size:1.2rem;
+}
+.btn{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}

@@ -1,0 +1,33 @@
+.drawer{
+    background-color: #121212;
+    height: 100%;
+    color: #fff;
+}
+.white{
+    color: #fff;
+}
+
+/* .appbaring{
+    background-color: #121212;
+} */
+
+.title{
+    background-color: #121212;
+}
+
+.bot{
+        color : white;
+        text-decoration: none;
+        display: flex;
+        padding: 10px;
+        font-size: 1.2rem;
+}
+
+.bot:hover{
+     color : rgb(175, 175, 175);
+}
+
+.listtext{
+    position: relative;
+    bottom: 3px;
+}

@@ -1,0 +1,128 @@
+.containerr {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  .titlee {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-groupp {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .labell {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+
+  label{
+    font-size: 12px;
+  }
+  
+  .inputt {
+    width: 100%;
+    font-size: 12px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .inputt:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .responsee {
+    font-size: 12px;
+    font-style: italic;
+    margin-top: 20px;
+  }
+  
+  /* Responsive layout */
+  
+  @media only screen and (min-width: 600px) {
+    .containerr {
+      padding: 40px;
+    }
+  
+    h1 {
+      font-size: 36px;
+      margin-bottom: 30px;
+    }
+  
+    .form-groupp {
+      margin-bottom: 30px;
+    }
+  
+    .labell {
+      font-size: 20px;
+      margin-bottom: 15px;
+    }
+  
+    .inputt {
+      font-size: 18px;
+      padding: 15px;
+      border-radius: 10px;
+    }
+  
+    .responsee {
+      font-size: 18px;
+      margin-top: 30px;
+    }
+  }
+  
+  @media only screen and (min-width: 900px) {
+    .containerr {
+      max-width: 900px;
+      padding: 60px;
+    }
+  
+    h1 {
+      font-size: 48px;
+      margin-bottom: 40px;
+    }
+  
+    .form-groupp {
+      margin-bottom: 40px;
+    }
+  
+    .labell {
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .inputt {
+      font-size: 20px;
+      padding: 20px;
+    }
+  
+    .responsee {
+      font-size: 20px;
+      margin-top: 40px;
+    }
+  }
+  
+
+
+
+
+
+
+
+
+
+  
+  
